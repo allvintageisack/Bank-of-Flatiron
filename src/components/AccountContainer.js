@@ -15,8 +15,8 @@ function AccountContainer() {
   },
 [query])
 
-  function handlesearch(o) {
-  setQuery(o.target.value)
+  function handlesearch(e) {
+  setQuery(e.target.value)
   }
   return (
     <div>
